@@ -9,7 +9,7 @@ This repository documents my **day-wise learning journey** through Databricks â€
 starting from core fundamentals and progressing toward advanced data engineering
 and analytics concepts.
 
-
+<img width="729" height="905" alt="Image" src="https://github.com/user-attachments/assets/aa7636ad-a673-496c-9f61-37b347e8e91c" />
 ---
 
 ## ðŸ”¹ What is Databricks? (Basics)
