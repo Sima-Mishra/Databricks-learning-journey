@@ -1,120 +1,142 @@
-# Databricks 14 Days AI Challenge 🚀
+# 🚀 Databricks 14 Days AI Challenge
 
-Databricks is a unified data and AI platform built on Apache Spark that enables
-organizations to process, analyze, and build machine learning models on large-scale data.
-It simplifies big data engineering by combining storage, compute, analytics, and AI
-into a single collaborative workspace.
+This repository documents my **14-day hands-on learning journey on Databricks**, focused on building a strong foundation in **data engineering, analytics, and AI workflows** using **Apache Spark** and the **Lakehouse architecture**.
 
-This repository documents my **day-wise learning journey** through Databricks —
-starting from core fundamentals and progressing toward advanced data engineering
-and analytics concepts.
-
-<img width="729" height="905" alt="Image" src="https://github.com/user-attachments/assets/aa7636ad-a673-496c-9f61-37b347e8e91c" />
----
-
-## 🔹 What is Databricks? (Basics)
-
-Databricks was created by the original creators of **Apache Spark** to make
-distributed data processing easier, faster, and more reliable.
-
-At a basic level, Databricks helps you:
-- Process large datasets efficiently using Spark
-- Work with structured and unstructured data
-- Collaborate using notebooks
-- Run SQL, Python, and machine learning workloads in one place
-
-Databricks removes the complexity of managing Spark clusters and lets users
-focus on **data logic instead of infrastructure**.
+The challenge follows a **daily structured format**, combining concepts, hands-on practice, and real-world use cases.  
+This repository acts as a **learning log, portfolio reference, and public progress tracker**.
 
 ---
 
-## 🔹 Why Databricks Over Pandas or Hadoop?
+## 📌 Table of Contents
 
-| Tool | Limitation |
-|-----|------------|
-| Pandas | Works only on single machines, not scalable |
-| Hadoop | Complex, disk-heavy, and difficult to manage |
-| Databricks | Distributed, optimized, and cloud-native |
-
-Databricks provides **in-memory processing**, simplified APIs, and faster
-development cycles compared to traditional big data tools.
-
----
-
-## 🔹 Lakehouse Architecture (Core Concept)
-
-Databricks follows a **Lakehouse architecture**, which combines:
-- The flexibility and low cost of a **Data Lake**
-- The reliability and performance of a **Data Warehouse**
-
-Key components:
-- Cloud object storage (S3 / ADLS / GCS)
-- Apache Spark for compute
-- Delta Lake for reliability and ACID transactions
-
-This architecture enables analytics, BI, and machine learning
-to run on the same data without duplication.
+- [About the Challenge](#-about-the-challenge)
+- [What You’ll Learn](#-what-youll-learn)
+- [Challenge Structure](#-challenge-structure)
+- [Daily Progress Tracker](#-daily-progress-tracker)
+- [Tech Stack](#-tech-stack)
+- [Learning Objectives](#-learning-objectives)
+- [Acknowledgements](#-acknowledgements)
+- [Connect With Me](https://www.linkedin.com/in/sima-analyst/)
 
 ---
 
-## 🔹 Core Concepts (Intermediate Level)
+## 🏢 About the Challenge
 
-As you progress, Databricks introduces several important concepts:
+- 📌 Organized by **Indian Data Club**
+- 🤝 In collaboration with **Codebasics**
+- ⭐ Sponsored by **Databricks**
 
-- **Spark Architecture**: Driver, Executors, and DAG
-- **Lazy Evaluation**: Execution happens only when actions are triggered
-- **DataFrames**: Structured, optimized APIs for data processing
-- **Managed Tables**: Enterprise-ready way to store and query data
-- **SQL & PySpark**: Seamless switching between analytics and engineering
-
-These concepts form the backbone of modern data engineering workflows.
+This initiative is designed to help learners move from **Databricks fundamentals** to **advanced analytics and AI-driven workflows** through structured, hands-on learning.
 
 ---
 
-## 🔹 Advanced Capabilities (What Comes Next)
+## 🎯 What You’ll Learn
 
-Databricks also supports advanced, production-grade features such as:
-- **Delta Lake** (ACID transactions, time travel, schema enforcement)
-- **Performance Optimization** (partitioning, caching, broadcast joins)
-- **Streaming Pipelines** (Auto Loader, Structured Streaming)
-- **Machine Learning & AI** (MLflow, feature store, model serving)
-- **Governance & Security** (Unity Catalog, lineage, access control)
+By completing this 14-day journey, I aim to gain practical exposure to the **end-to-end Databricks ecosystem**, including:
 
-These capabilities allow teams to build **scalable, reliable, and governed
-data platforms**.
+- **Databricks Platform & Workspace**
+- **Lakehouse Architecture**
+- **Apache Spark & PySpark**
+- **Data Transformations & Window Functions**
+- **Delta Lake & ACID Transactions**
+- **Medallion Architecture (Bronze–Silver–Gold)**
+- **Workflow Automation & Jobs**
+- **SQL Analytics & Performance Optimization**
+- **MLflow & Experiment Tracking**
+- **AI & Generative Analytics**
 
----
-
-## 📅 Learning Progress (Day-Wise)
-
-- **Day 1** – Platform Setup & First Steps  
-- **Day 2** – Apache Spark Fundamentals  
-- **Day 3** – Delta Lake & Reliable Storage (coming soon)  
-
-Each day contains:
-- A dedicated README
-- Code snippets (where applicable)
-- Screenshots as proof of work
+This ensures a **strong bridge between theory and real-world implementation**.
 
 ---
 
-## 🎯 Goal of This Repository
+## 🗺️ Challenge Structure
 
-The goal of this repository is to:
-- Learn Databricks from **fundamentals to advanced concepts**
-- Apply learning through hands-on practice
-- Document progress transparently
-- Build a strong data engineering portfolio
+The challenge is divided into **four progressive phases**:
+
+### 🔹 PHASE 1: Foundation (Days 1–4)
+- Databricks setup and workspace overview  
+- Spark fundamentals  
+- PySpark transformations  
+- Basic analytics concepts  
+
+### 🔹 PHASE 2: Data Engineering (Days 5–8)
+- Delta Lake fundamentals and advanced features  
+- Medallion architecture (Bronze–Silver–Gold)  
+- Workflow scheduling and automation  
+- Governance basics  
+
+### 🔹 PHASE 3: Advanced Analytics (Days 9–11)
+- SQL analytics on Databricks  
+- Query optimization and performance tuning  
+- Statistical preparation for machine learning  
+
+### 🔹 PHASE 4: AI & ML (Days 12–14)
+- MLflow experiment tracking  
+- Model comparison and evaluation  
+- Introduction to AI and generative analytics  
+
+By the end of the challenge, I aim to confidently handle **end-to-end Databricks workflows**, from raw data ingestion to AI-powered insights.
 
 ---
 
-## 🛠️ Tools Used
-- Databricks Community Edition
-- Apache Spark (PySpark & Spark SQL)
-- GitHub
-- Canva (for visuals)
+## 🧠 Daily Progress Tracker
+
+| Day | Topic | Description | Status |
+|----|------|------------|--------|
+| ✅ Day 1 | Platform Setup & First Steps | Workspace, notebooks, and basic operations | Completed |
+| ✅ Day 2 | Apache Spark Fundamentals | DataFrames, transformations, Spark basics | Completed |
+| ✅ Day 3 | PySpark Transformations | Joins, window functions, feature engineering | Completed |
+| 🔄 Day 4 | Delta Lake Basics | Delta tables and ACID transactions | Planned |
+| 🔄 Day 5 | Delta Lake Advanced | Time travel and versioning | Planned |
+| 🔄 Day 6 | Medallion Architecture | Bronze–Silver–Gold layers | Planned |
+| 🔄 Day 7 | Workflows & Jobs | Scheduling Databricks pipelines | Planned |
+| 🔄 Day 8 | Unity Catalog | Governance and access control | Planned |
+| 🔄 Day 9 | SQL Analytics | Analytical queries and insights | Planned |
+| 🔄 Day 10 | Performance Optimization | Caching and tuning | Planned |
+| 🔄 Day 11 | Stats & ML Prep | Preparing data for ML | Planned |
+| 🔄 Day 12 | MLflow Basics | Tracking ML experiments | Planned |
+| 🔄 Day 13 | Model Comparison | Evaluating model performance | Planned |
+| 🔄 Day 14 | AI & Generative Analytics | AI-powered analytics | Planned |
 
 ---
 
-> Learning Databricks is not just about running Spark code —
-> it is about designing scalable, reliable, and collaborative data systems.
+## 🛠️ Tech Stack
+
+This challenge is implemented using **Databricks Community Edition** and the following tools:
+
+- **Apache Spark & PySpark** – Distributed data processing  
+- **Delta Lake** – Reliable and versioned data lakes  
+- **SQL** – Analytics and querying  
+- **MLflow** – Experiment tracking and model management  
+- **Python** – Core programming language  
+
+---
+
+## 🎯 Learning Objectives
+
+- Understand modern data platform architecture  
+- Build scalable data pipelines using Spark  
+- Apply real-world data engineering patterns  
+- Gain exposure to analytics and AI workflows  
+- Learn by building and sharing progress publicly  
+
+---
+
+## 🙏 Acknowledgements
+
+Special thanks to:
+- **Databricks** for the platform  
+- **Codebasics** for learning inspiration  
+- **Indian Data Club** for organizing this challenge  
+
+---
+
+## 🤝 Connect With Me
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/sima-analyst/)
+- 🧑‍💻 [GitHub](https://github.com/Sima-Mishra/Databricks-learning-journey/edit/main/README.md)
+- 📺 [YouTube](https://www.youtube.com/@datawithmishra)
+
+---
+
+⭐ If you find this repository useful, feel free to star it and follow along with my learning journey!
