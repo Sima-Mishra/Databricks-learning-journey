@@ -2,6 +2,8 @@
 
 This repository documents my **14-day hands-on learning journey on Databricks**, focused on building a strong foundation in **data engineering, analytics, and AI workflows** using **Apache Spark** and the **Lakehouse architecture**.
 
+<img width="1835" height="288" alt="Image" src="https://github.com/user-attachments/assets/f40da4f2-6536-4977-9da3-7c24d2e5d8e7" />
+
 The challenge follows a **daily structured format**, combining concepts, hands-on practice, and real-world use cases.  
 This repository acts as a **learning log, portfolio reference, and public progress tracker**.
 
