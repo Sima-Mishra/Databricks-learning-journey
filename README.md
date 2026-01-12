@@ -5,6 +5,8 @@ This repository documents my **14-day hands-on learning journey on Databricks**,
 The challenge follows a **daily structured format**, combining concepts, hands-on practice, and real-world use cases.  
 This repository acts as a **learning log, portfolio reference, and public progress tracker**.
 
+
+
 ---
 
 ## 📌 Table of Contents
@@ -86,7 +88,7 @@ By the end of the challenge, I aim to confidently handle **end-to-end Databricks
 | ✅ Day 1 | Platform Setup & First Steps | Workspace, notebooks, and basic operations | Completed |
 | ✅ Day 2 | Apache Spark Fundamentals | DataFrames, transformations, Spark basics | Completed |
 | ✅ Day 3 | PySpark Transformations | Joins, window functions, feature engineering | Completed |
-| 🔄 Day 4 | Delta Lake Basics | Delta tables and ACID transactions | Planned |
+| ✅ Day 4 | Delta Lake Basics | Delta tables and ACID transactions | Completed |
 | 🔄 Day 5 | Delta Lake Advanced | Time travel and versioning | Planned |
 | 🔄 Day 6 | Medallion Architecture | Bronze–Silver–Gold layers | Planned |
 | 🔄 Day 7 | Workflows & Jobs | Scheduling Databricks pipelines | Planned |
