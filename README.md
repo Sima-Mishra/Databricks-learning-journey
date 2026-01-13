@@ -91,7 +91,7 @@ By the end of the challenge, I aim to confidently handle **end-to-end Databricks
 | ✅ Day 2 | Apache Spark Fundamentals | DataFrames, transformations, Spark basics | Completed |
 | ✅ Day 3 | PySpark Transformations | Joins, window functions, feature engineering | Completed |
 | ✅ Day 4 | Delta Lake Basics | Delta tables and ACID transactions | Completed |
-| 🔄 Day 5 | Delta Lake Advanced | Time travel and versioning | Planned |
+| ✅ Day 5 | Delta Lake Advanced | Time travel and versioning | Completed |
 | 🔄 Day 6 | Medallion Architecture | Bronze–Silver–Gold layers | Planned |
 | 🔄 Day 7 | Workflows & Jobs | Scheduling Databricks pipelines | Planned |
 | 🔄 Day 8 | Unity Catalog | Governance and access control | Planned |
