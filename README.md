@@ -93,8 +93,8 @@ By the end of the challenge, I aim to confidently handle **end-to-end Databricks
 | ✅ Day 4 | Delta Lake Basics | Delta tables and ACID transactions | Completed |
 | ✅ Day 5 | Delta Lake Advanced | Time travel and versioning | Completed |
 | ✅ Day 6 | Medallion Architecture | Bronze–Silver–Gold layers | Completed |
-| 🔄 Day 7 | Workflows & Jobs | Scheduling Databricks pipelines | Planned |
-| 🔄 Day 8 | Unity Catalog | Governance and access control | Planned |
+| ✅ Day 7 | Workflows & Jobs | Scheduling Databricks pipelines | Completed |
+| ✅ Day 8 | Unity Catalog | Governance and access control | Completed |
 | 🔄 Day 9 | SQL Analytics | Analytical queries and insights | Planned |
 | 🔄 Day 10 | Performance Optimization | Caching and tuning | Planned |
 | 🔄 Day 11 | Stats & ML Prep | Preparing data for ML | Planned |
