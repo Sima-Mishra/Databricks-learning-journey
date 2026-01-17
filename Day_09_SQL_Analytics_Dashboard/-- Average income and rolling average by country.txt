@@ -1,0 +1,35 @@
+-- Average income and rolling average by country
+WITH country_income AS (
+  SELECT
+    country,
+    AVG(avg_income) AS avg_income
+  FROM gold.customer_summary
+  GROUP BY country
+)
+SELECT
+  country,
+  avg_income,
+  AVG(avg_income) OVER (
+    ORDER BY country
+    ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
+  ) AS rolling_avg_income
+FROM country_income
+ORDER BY country;
+
+-- Customer count by country
+SELECT
+  country,
+  total_customers
+FROM gold.customer_summary
+ORDER BY total_customers DESC;
+
+-- Customer income segmentation
+SELECT
+  CASE
+    WHEN avg_income >= 70000 THEN 'High Income'
+    WHEN avg_income >= 40000 THEN 'Mid Income'
+    ELSE 'Low Income'
+  END AS income_segment,
+  COUNT(*) AS customers
+FROM gold.customer_summary
+GROUP BY income_segment;
