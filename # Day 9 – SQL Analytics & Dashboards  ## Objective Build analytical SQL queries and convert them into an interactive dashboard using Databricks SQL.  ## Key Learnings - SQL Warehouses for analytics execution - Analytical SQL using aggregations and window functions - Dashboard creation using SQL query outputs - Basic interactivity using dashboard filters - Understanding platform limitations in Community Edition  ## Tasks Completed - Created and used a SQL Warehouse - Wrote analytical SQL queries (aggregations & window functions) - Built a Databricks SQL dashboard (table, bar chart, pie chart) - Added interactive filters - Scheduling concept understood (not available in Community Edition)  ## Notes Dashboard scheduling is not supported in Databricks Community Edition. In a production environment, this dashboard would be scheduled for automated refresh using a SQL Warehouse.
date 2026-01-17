@@ -1,0 +1,21 @@
+# Day 9 – SQL Analytics & Dashboards
+
+## Objective
+Build analytical SQL queries and convert them into an interactive dashboard using Databricks SQL.
+
+## Key Learnings
+- SQL Warehouses for analytics execution
+- Analytical SQL using aggregations and window functions
+- Dashboard creation using SQL query outputs
+- Basic interactivity using dashboard filters
+- Understanding platform limitations in Community Edition
+
+## Tasks Completed
+- Created and used a SQL Warehouse
+- Wrote analytical SQL queries (aggregations & window functions)
+- Built a Databricks SQL dashboard (table, bar chart, pie chart)
+- Added interactive filters
+- Scheduling concept understood (not available in Community Edition)
+
+## Notes
+Dashboard scheduling is not supported in Databricks Community Edition. In a production environment, this dashboard would be scheduled for automated refresh using a SQL Warehouse.
