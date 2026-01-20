@@ -95,10 +95,10 @@ By the end of the challenge, I aim to confidently handle **end-to-end Databricks
 | ✅ Day 6 | Medallion Architecture | Bronze–Silver–Gold layers | Completed |
 | ✅ Day 7 | Workflows & Jobs | Scheduling Databricks pipelines | Completed |
 | ✅ Day 8 | Unity Catalog | Governance and access control | Completed |
-| 🔄 Day 9 | SQL Analytics | Analytical queries and insights | Planned |
-| 🔄 Day 10 | Performance Optimization | Caching and tuning | Planned |
-| 🔄 Day 11 | Stats & ML Prep | Preparing data for ML | Planned |
-| 🔄 Day 12 | MLflow Basics | Tracking ML experiments | Planned |
+| ✅ Day 9 | SQL Analytics | Analytical queries and insights | Completed |
+| ✅ Day 10 | Performance Optimization | Caching and tuning | Completed |
+| ✅ Day 11 | Stats & ML Prep | Preparing data for ML | Completed |
+| ✅ Day 12 | MLflow Basics | Tracking ML experiments | Completed |
 | 🔄 Day 13 | Model Comparison | Evaluating model performance | Planned |
 | 🔄 Day 14 | AI & Generative Analytics | AI-powered analytics | Planned |
 
