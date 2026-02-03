@@ -99,8 +99,8 @@ By the end of the challenge, I aim to confidently handle **end-to-end Databricks
 | ✅ Day 10 | Performance Optimization | Caching and tuning | Completed |
 | ✅ Day 11 | Stats & ML Prep | Preparing data for ML | Completed |
 | ✅ Day 12 | MLflow Basics | Tracking ML experiments | Completed |
-| 🔄 Day 13 | Model Comparison | Evaluating model performance | Planned |
-| 🔄 Day 14 | AI & Generative Analytics | AI-powered analytics | Planned |
+| 🔄 Day 13 | Model Comparison | Evaluating model performance | Completed |
+| 🔄 Day 14 | AI & Generative Analytics | AI-powered analytics | Completed |
 
 ---
 
